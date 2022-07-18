@@ -1,0 +1,155 @@
+
+body {
+    background-color: #8dc63f;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper{
+    background-color: #fff;
+    max-width: 83%;
+    margin: 0 auto;
+    padding: 0 16px;
+
+}
+
+.text {
+    width: 70%;
+}
+
+.info {
+    display: flex;
+}
+.name  {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.name .p1 {
+margin-top: 0;
+font-size: 22px;
+color: #39930d;
+font-family: "Arial";
+}
+
+.name p { 
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+#ball {
+    margin-top: 20px;
+    transition: all 1s ease ;
+}
+
+.name strong {
+font-size: 44px;
+line-height: 7px;
+color: #39930d;
+font-weight: bold;
+font-family: "Arial";
+
+}
+
+.contacts {
+    margin-left: 60.9%;
+    margin-top: 10px;
+}
+.contacts a {
+    color: #39930d;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.contacts p {
+    color: #5a5a5a;
+    font-size: 14px;
+    text-align: right;
+}
+
+#picture {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text strong {
+    font-size: 24px;
+    line-height: 7px;
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.text p {
+width: 100%;
+height: 234px;
+font-size: 14px;
+line-height: 21px;
+color: #343434;
+font-family: "Arial";
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 30%;
+
+}
+
+aside nav {
+    margin-left: 18%;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+aside p {
+    font-size: 18px;
+    line-height: 7px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+.partners {
+margin-left: 12.6%;
+margin-top:21px ;
+padding-top: 1px;
+padding-left: 20px;
+width: 400px;
+height: 43px;
+background-color: #39930d;
+}
+
+
+
+aside a {
+text-transform: uppercase;
+font-size: 15px;
+line-height: 20px;
+text-decoration: underline;
+color: #39930d;
+font-family: "Arial";
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 84.7%;
+    background-color: #39930d;
+    height: 45px;
+    padding-top: 7.75px;
+}
+
+footer p {
+font-size: 14px;
+line-height: 7px;
+color: #ffffff;
+font-family: "Arial";
+margin-left: 16px;
+
+}
+
+.ball-animation {
+    transition: all 1s ease;
+    transform: rotate(180deg);
+
+}
