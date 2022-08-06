@@ -1,11 +1,10 @@
-
 body {
     background-color: #8dc63f;
     margin: 0 auto;
     font-family: Arial, sans-serif;
 }
 
-.wrapper{
+.wrapper {
     background-color: #fff;
     max-width: 83%;
     margin: 0 auto;
@@ -20,34 +19,35 @@ body {
 .info {
     display: flex;
 }
-.name  {
+
+.name {
     width: 20%;
     margin-top: 20px;
 }
 
 .name .p1 {
-margin-top: 0;
-font-size: 22px;
-color: #39930d;
-font-family: "Arial";
+    margin-top: 0;
+    font-size: 22px;
+    color: #39930d;
+    font-family: "Arial";
 }
 
-.name p { 
+.name p {
     font-size: 14px;
     color: #5a5a5a;
 }
 
 #ball {
     margin-top: 20px;
-    transition: all 1s ease ;
+    transition: all 1s ease;
 }
 
 .name strong {
-font-size: 44px;
-line-height: 7px;
-color: #39930d;
-font-weight: bold;
-font-family: "Arial";
+    font-size: 44px;
+    line-height: 7px;
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
 
 }
 
@@ -55,10 +55,15 @@ font-family: "Arial";
     margin-left: 60.9%;
     margin-top: 10px;
 }
+
 .contacts a {
     color: #39930d;
     text-decoration: none;
     font-size: 22px;
+}
+
+.contacts a:hover{
+    text-decoration: underline;
 }
 
 .contacts p {
@@ -81,12 +86,12 @@ font-family: "Arial";
 }
 
 .text p {
-width: 100%;
-height: 234px;
-font-size: 14px;
-line-height: 21px;
-color: #343434;
-font-family: "Arial";
+    width: 100%;
+    height: 234px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+    font-family: "Arial";
 }
 
 main {
@@ -110,25 +115,30 @@ aside p {
     color: #ffffff;
     font-family: "Arial";
 }
+
 .partners {
-margin-left: 12.6%;
-margin-top:21px ;
-padding-top: 1px;
-padding-left: 20px;
-width: 400px;
-height: 43px;
-background-color: #39930d;
+    margin-left: 12.6%;
+    margin-top: 21px;
+    padding-top: 1px;
+    padding-left: 20px;
+    width: 80%;
+    height: 43px;
+    background-color: #39930d;
 }
 
 
 
 aside a {
-text-transform: uppercase;
-font-size: 15px;
-line-height: 20px;
-text-decoration: underline;
-color: #39930d;
-font-family: "Arial";
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #39930d;
+    font-family: "Arial";
+}
+
+aside a:hover{
+    text-decoration: none;
 }
 
 .footer {
@@ -140,11 +150,11 @@ font-family: "Arial";
 }
 
 footer p {
-font-size: 14px;
-line-height: 7px;
-color: #ffffff;
-font-family: "Arial";
-margin-left: 16px;
+    font-size: 14px;
+    line-height: 7px;
+    color: #ffffff;
+    font-family: "Arial";
+    margin-left: 16px;
 
 }
 
